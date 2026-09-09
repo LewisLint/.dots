@@ -1,5 +1,6 @@
 ## Zsh config reqs
 You must have Zsh installed, obviously.
+
 You should probably rename your current `.zshrc` config file to something else, example, `.zshrc.bck`, to not lose what you already have.
 
 You must have nerdfont icons, as `ls` will use them by default.
