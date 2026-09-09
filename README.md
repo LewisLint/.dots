@@ -1,8 +1,5 @@
 ## Zsh config reqs
 You must have Zsh installed, obviously.
-
-You must have zsh autosuggestions and coloring (I don't know the package names, go look it up, lazy).
-
 You should probably rename your current `.zshrc` config file to something else, example, `.zshrc.bck`, to not lose what you already have.
 
 You must have nerdfont icons, as `ls` will use them by default.
