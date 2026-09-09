@@ -18,3 +18,8 @@ build_arrow() {
 
 # Construct the final prompt
 PROMPT='%F{blue}%~%f $(build_arrow) '
+
+# aliases:
+alias ls='eza --icons'
+alias ll='eza -lah --icons'
+alias la='eza -a --icons'
