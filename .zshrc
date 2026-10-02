@@ -65,7 +65,6 @@ autoload -U colors && colors
 # Fix backspace/delete refusing to clear old text in vi-insert mode
 bindkey -M viins '^?' backward-delete-char
 bindkey -M viins '^H' backward-delete-char
-pfetch
 echo -ne "\e[6 q"
 # Map jj to escape to normal mode
 bindkey -M viins 'jj' vi-cmd-mode
@@ -122,7 +121,7 @@ alias py="python"
 
 
 
-alias clear="clear && pfetch"
+alias clear="clear"
 # Enable prompt expansion so functions run inside the prompt
 setopt PROMPT_SUBST
 
@@ -145,6 +144,4 @@ build_arrow() {
 PROMPT='%F{blue}%~%f $(build_arrow) '
 
 # aliases:
-alias ls='eza --icons'
-alias ll='eza -lah --icons'
-alias la='eza -a --icons'
+alias ls='ls -aFBh --color=auto'
